@@ -1,5 +1,7 @@
 import random
-r = random.randint(1,10)
+a = input('Please state the smallest number:')
+b = input('Please state the largest number:')
+r = random.randint(int(a),int(b))
 count = 0
 while True:
 	count += 1
